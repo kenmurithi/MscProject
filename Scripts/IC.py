@@ -58,3 +58,4 @@ if motifs > 0:
     outfile.write("%s motifs mean IC= %s \n \n" % (motifs,totalentropy/motifs))
 outfile.close()
 motiffile.close()
+
