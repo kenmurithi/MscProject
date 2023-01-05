@@ -1,6 +1,10 @@
 #!/usr/bin/python
 
-#
+# Name: IC.py
+# Author: Ken Murithi
+# Date: 5 Jan 2023
+
+# The script calculates the Information content given a MEME file
 
 
 from __future__ import print_function
