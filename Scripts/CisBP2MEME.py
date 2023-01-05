@@ -1,6 +1,6 @@
 # Name: CisBP2MEME.py
 # Author: Ken Murithi
-# Date: 5 Jan 2023
+# Date: 5 Jan 2023 
 
 # The script convert Cis-BP motif matrixes to  meme format
 
