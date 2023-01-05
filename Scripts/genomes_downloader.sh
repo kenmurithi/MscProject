@@ -25,3 +25,4 @@ wget $genome  -O ./data/genomes/${base}
 bwa index ./data/genomes/${base} > ./data/index_genomes/${base}   # Index the respective reference genome
 
 done
+
