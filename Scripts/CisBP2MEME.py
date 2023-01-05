@@ -1,6 +1,4 @@
-#! /bin/bash
-
-# Name: CisBP2MEME.sh
+# Name: CisBP2MEME.py
 # Author: Ken Murithi
 # Date: 5 Jan 2023
 
