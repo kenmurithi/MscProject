@@ -22,3 +22,4 @@ wget $gff  -O ./data/gffs/${base}
 grep "protein_coding_gene" ./data/gffs/${base} | cut -f 1,4,5 > ./data/genome_files/${base2}genome  #creating a genome file
 
 done
+
