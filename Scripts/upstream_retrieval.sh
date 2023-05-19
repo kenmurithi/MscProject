@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-# Name: bedtools.sh
+# Name: upstream_retrieval.sh
 # Author: Ken Murithi
 # Date: 5 Jan 2022
 
