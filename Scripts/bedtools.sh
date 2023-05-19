@@ -8,16 +8,16 @@
 #create a directory with bed files for each of the Glossina species
 #For example: nano Gau-or # this directory contins bed files for the glossina austeni chemosensory genes
 
-for gff in  *.bed
+for bed in  *.bed
 
 do
 
-base=$(basename ${gff})
+base=$(basename ${bed})
 base2=$(basename $base .bed)
 
 echo 'running' $base2
 
-bedtools flank -i $gff -g Gau.genome -l 500 -r 0 >  ${base2}_upstream.bed # extracts the upstream (500bp) region of the chemosensory genes
+bedtools flank -i $bed -g Gau.genome -l 500 -r 0 >  ${base2}_upstream.bed # extracts the upstream (500bp) region of the chemosensory genes
 bedtools getfasta -fi ./data/index_genomes/${genome} -bed ${base2}_upstream.bed >${base2}_upstream.fa #gets the fasta file of the extracted upstream region
 
 done
